@@ -1,4 +1,4 @@
-{
+  {
   "name": "parse-server-codecraft",
   "version": "1.4.0",
   "description": "An example Parse API server using the parse-server module",
