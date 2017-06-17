@@ -12,7 +12,7 @@ if (!databaseUri) {
 var api = new ParseServer({
 	//**** General Settings ****//
 
-	databaseURI: databaseUri || 'mongodb://localhost:27017/dev',
+	databaseURI: databaseUri || 'mongodb://zouhairkhallaf:Zouzou#007@ds125262.mlab.com:25262/heroku_hnp8pl7f',
 	cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
 	serverURL: process.env.SERVER_URL || 'https://my-parse-server-codecraft-ex.herokuapp.com/',  // Don't forget to change to https if needed
 	
